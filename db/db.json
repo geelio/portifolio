@@ -1,0 +1,71 @@
+{
+    "conteudos": [
+        {
+            "id": 1,
+            "titulo": "Google abre beta do Project IDX",
+            "descricao": "Se você estava esperando uma vaga para testar o Project IDX do Google, a hora é essa.",
+            "url_capa": "https://www.devdofuturo.com/wp-content/uploads/2024/05/project-idx.webp",
+            "url_conteudo": "https://www.devdofuturo.com/google-abre-beta-do-project-idx/" 
+        },
+        {
+            "id": 2,
+            "titulo": "Cofundador da OpenAI deixa a empresa",
+            "descricao": "A OpenAI perdeu um de seus nomes mais importantes nessa semana",
+            "url_capa": "https://www.devdofuturo.com/wp-content/uploads/2024/05/IlyaSutskever-e1717168308743.webp",
+            "url_conteudo": "https://www.devdofuturo.com/cofundador-da-openai-deixa-a-empresa/" 
+        },
+        {
+            "id": 3,
+            "titulo": "Depois de 10 anos a Meta decide encerrar o Workplace",
+            "descricao": "o serviço será descontinuado em breve. Assim que o rumor do encerramento chegou na imprensa.",
+            "url_capa": "https://www.devdofuturo.com/wp-content/uploads/2024/05/meta-workplace.webp",
+            "url_conteudo": "https://www.devdofuturo.com/meta-encerra-o-workplace/" 
+        },
+        {
+            "id": 4,
+            "titulo": "Apple e OpenAI consolidam parceria no iPhone e no Mac",
+            "descricao": "Foram divulgados os resultados da parceria entre a Apple e a OpenAI.",
+            "url_capa": "https://www.devdofuturo.com/wp-content/uploads/2024/05/apple-openai.webp",
+            "url_conteudo": "https://www.devdofuturo.com/apple-e-openai-consolidam-parceria-no-iphone-e-no-mac/" 
+        },
+        {
+            "id": 4,
+            "titulo": "GPT-4o é a nova geração de IA da OpenAI",
+            "descricao": "Enquanto todo mundo estava esperando o GPT-5, a OpenAI surpreendeu com o GPT-4o",
+            "url_capa": "https://www.devdofuturo.com/wp-content/uploads/2024/06/GPT-4-1536x1536.webp",
+            "url_conteudo": "https://www.devdofuturo.com/gpt-4o-e-a-nova-geracao-de-ia-da-openai/" 
+        }
+    ],
+    "colegas": [
+        {
+            "id": 1,
+            "url_foto": "https://avatars.githubusercontent.com/u/160603029?v=4",
+            "nome": "Arthur Pazzutti",
+            "url_github": "https://github.com/pazzutti"
+        },
+        {
+            "id": 2,
+            "url_foto": "https://avatars.githubusercontent.com/u/145078231?v=4",
+            "nome": "Fernando Dantas",
+            "url_github": "https://github.com/Fernandodgleite"
+        },
+        {
+            "id": 3,
+            "url_foto": "http://127.0.0.1:5500/assets/img/WhatsApp%20Image%202024-04-15%20at%2020.17.11%20(2).jpeg",
+            "nome": "Vitor Costa Vianna",
+            "url_github": "https://github.com/VitorCostaVianna"
+        },
+        {
+            "id": 4,
+            "url_foto": "https://avatars.githubusercontent.com/u/164196084?v=4",
+            "nome": "Eliseu do Prado Chaves",
+            "url_github": "https://github.com/eliseu324"
+        },
+        {
+            "id": 5,
+            "url_foto": "https://avatars.githubusercontent.com/u/160603058?v=4",
+            "nome": "Joaquim Guilherme",
+            "url_github": "https://github.com/JoaquimGCVS"
+        }
+    ]
+}
