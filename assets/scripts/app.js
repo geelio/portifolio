@@ -57,12 +57,24 @@ function getApiGitHub() {
         data.map( item => {
             let project = document.createElement('div')
 
+
+            function formatarData(dataISO) {
+                const data = new Date(dataISO);
+                const dia = String(data.getDate()).padStart(2, '0');
+                const mes = String(data.getMonth() + 1).padStart(2, '0'); // Mês é zero-indexado
+                const ano = data.getFullYear();
+                return `${dia}/${mes}/${ano}`;
+            }
+
+
             project.innerHTML = `
             <div class="card h-70">
             <div class="card-body">
                 <h5 class="card-title"><a href="${ item.html_url}" target="_blank">${ item.name}</a></h5>
                 <p class="card-text">${ item.full_name}
                 </p>
+                <div class="datacriacao">${formatarData(item.created_at)}</div>
+                <hr>
                 <div class="seguidores-repositorios">
                 <div class="divstar">
                     <i class="fa-solid fa-star"></i>
@@ -72,6 +84,7 @@ function getApiGitHub() {
                     <i class="fa-solid fa-user fa-lg"></i>
                     <p>${Math.floor(Math.random() * 100)}</p>
                     </div>
+                    
                     
             
             
